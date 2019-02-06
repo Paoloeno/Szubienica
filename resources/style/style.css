@@ -1,0 +1,98 @@
+body{
+    background-color: #000000;
+    color: grey;
+    font-size: 28px;
+    font-family: 'Ubuntu Mono', monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#mainContainer{
+    margin-left: auto;
+    margin right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#wordToFind{
+    margin-left: auto;
+    margin right: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+}
+
+#gallows{
+    float: left;
+    width: 60%;
+    text-align: center;
+    min-height: 300px;
+}
+
+#alphabet{
+    float: left;
+    width: 40%;
+    text-align: center;
+    min-height: 300px;
+}
+
+#info{
+    clear:both;
+    text-align: center;
+    font-size: 48px;
+    color: #ff4444;
+}
+
+#infoWin{
+    clear:both;
+    text-align: center;
+    font-size: 48px;
+    color: #006600;
+}
+
+.letter{
+    float: left;
+    min-width: 35px;
+    margin: 5px;
+    border-size: 3px;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.letter:hover{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+#playAgainButton{
+    background-color: #002900;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #006600;
+    border: 3px solid #006600;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 250px;
+    border-radius: 25px;
+}
+
+#playAgainButton:hover{
+
+    font-weight: bold;
+
+}
